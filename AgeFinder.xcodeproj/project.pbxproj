@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3627FD2122F9245A00ADB477 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3627FD2022F9245A00ADB477 /* AppDelegate.swift */; };
+		3627FD2322F9245A00ADB477 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3627FD2222F9245A00ADB477 /* ViewController.swift */; };
+		3627FD2622F9245A00ADB477 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3627FD2422F9245A00ADB477 /* Main.storyboard */; };
+		3627FD2822F9245B00ADB477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3627FD2722F9245B00ADB477 /* Assets.xcassets */; };
+		3627FD2B22F9245B00ADB477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3627FD2922F9245B00ADB477 /* LaunchScreen.storyboard */; };
+		3627FD3622F9245B00ADB477 /* AgeFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3627FD3522F9245B00ADB477 /* AgeFinderTests.swift */; };
+		3627FD4122F9245B00ADB477 /* AgeFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3627FD4022F9245B00ADB477 /* AgeFinderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3627FD3222F9245B00ADB477 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3627FD1522F9245A00ADB477 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3627FD1C22F9245A00ADB477;
+			remoteInfo = AgeFinder;
+		};
+		3627FD3D22F9245B00ADB477 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3627FD1522F9245A00ADB477 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3627FD1C22F9245A00ADB477;
+			remoteInfo = AgeFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3627FD1D22F9245A00ADB477 /* AgeFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgeFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3627FD2022F9245A00ADB477 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3627FD2222F9245A00ADB477 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3627FD2522F9245A00ADB477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3627FD2722F9245B00ADB477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3627FD2A22F9245B00ADB477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3627FD2C22F9245B00ADB477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3627FD3122F9245B00ADB477 /* AgeFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgeFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3627FD3522F9245B00ADB477 /* AgeFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeFinderTests.swift; sourceTree = "<group>"; };
+		3627FD3722F9245B00ADB477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3627FD3C22F9245B00ADB477 /* AgeFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgeFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3627FD4022F9245B00ADB477 /* AgeFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeFinderUITests.swift; sourceTree = "<group>"; };
+		3627FD4222F9245B00ADB477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3627FD1A22F9245A00ADB477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3627FD2E22F9245B00ADB477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3627FD3922F9245B00ADB477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3627FD1422F9245A00ADB477 = {
+			isa = PBXGroup;
+			children = (
+				3627FD1F22F9245A00ADB477 /* AgeFinder */,
+				3627FD3422F9245B00ADB477 /* AgeFinderTests */,
+				3627FD3F22F9245B00ADB477 /* AgeFinderUITests */,
+				3627FD1E22F9245A00ADB477 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3627FD1E22F9245A00ADB477 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3627FD1D22F9245A00ADB477 /* AgeFinder.app */,
+				3627FD3122F9245B00ADB477 /* AgeFinderTests.xctest */,
+				3627FD3C22F9245B00ADB477 /* AgeFinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3627FD1F22F9245A00ADB477 /* AgeFinder */ = {
+			isa = PBXGroup;
+			children = (
+				3627FD2022F9245A00ADB477 /* AppDelegate.swift */,
+				3627FD2222F9245A00ADB477 /* ViewController.swift */,
+				3627FD2422F9245A00ADB477 /* Main.storyboard */,
+				3627FD2722F9245B00ADB477 /* Assets.xcassets */,
+				3627FD2922F9245B00ADB477 /* LaunchScreen.storyboard */,
+				3627FD2C22F9245B00ADB477 /* Info.plist */,
+			);
+			path = AgeFinder;
+			sourceTree = "<group>";
+		};
+		3627FD3422F9245B00ADB477 /* AgeFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				3627FD3522F9245B00ADB477 /* AgeFinderTests.swift */,
+				3627FD3722F9245B00ADB477 /* Info.plist */,
+			);
+			path = AgeFinderTests;
+			sourceTree = "<group>";
+		};
+		3627FD3F22F9245B00ADB477 /* AgeFinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3627FD4022F9245B00ADB477 /* AgeFinderUITests.swift */,
+				3627FD4222F9245B00ADB477 /* Info.plist */,
+			);
+			path = AgeFinderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3627FD1C22F9245A00ADB477 /* AgeFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3627FD4522F9245B00ADB477 /* Build configuration list for PBXNativeTarget "AgeFinder" */;
+			buildPhases = (
+				3627FD1922F9245A00ADB477 /* Sources */,
+				3627FD1A22F9245A00ADB477 /* Frameworks */,
+				3627FD1B22F9245A00ADB477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgeFinder;
+			productName = AgeFinder;
+			productReference = 3627FD1D22F9245A00ADB477 /* AgeFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3627FD3022F9245B00ADB477 /* AgeFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3627FD4822F9245B00ADB477 /* Build configuration list for PBXNativeTarget "AgeFinderTests" */;
+			buildPhases = (
+				3627FD2D22F9245B00ADB477 /* Sources */,
+				3627FD2E22F9245B00ADB477 /* Frameworks */,
+				3627FD2F22F9245B00ADB477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3627FD3322F9245B00ADB477 /* PBXTargetDependency */,
+			);
+			name = AgeFinderTests;
+			productName = AgeFinderTests;
+			productReference = 3627FD3122F9245B00ADB477 /* AgeFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3627FD3B22F9245B00ADB477 /* AgeFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3627FD4B22F9245B00ADB477 /* Build configuration list for PBXNativeTarget "AgeFinderUITests" */;
+			buildPhases = (
+				3627FD3822F9245B00ADB477 /* Sources */,
+				3627FD3922F9245B00ADB477 /* Frameworks */,
+				3627FD3A22F9245B00ADB477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3627FD3E22F9245B00ADB477 /* PBXTargetDependency */,
+			);
+			name = AgeFinderUITests;
+			productName = AgeFinderUITests;
+			productReference = 3627FD3C22F9245B00ADB477 /* AgeFinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3627FD1522F9245A00ADB477 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Rizal Hilman";
+				TargetAttributes = {
+					3627FD1C22F9245A00ADB477 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					3627FD3022F9245B00ADB477 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 3627FD1C22F9245A00ADB477;
+					};
+					3627FD3B22F9245B00ADB477 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 3627FD1C22F9245A00ADB477;
+					};
+				};
+			};
+			buildConfigurationList = 3627FD1822F9245A00ADB477 /* Build configuration list for PBXProject "AgeFinder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3627FD1422F9245A00ADB477;
+			productRefGroup = 3627FD1E22F9245A00ADB477 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3627FD1C22F9245A00ADB477 /* AgeFinder */,
+				3627FD3022F9245B00ADB477 /* AgeFinderTests */,
+				3627FD3B22F9245B00ADB477 /* AgeFinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3627FD1B22F9245A00ADB477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3627FD2B22F9245B00ADB477 /* LaunchScreen.storyboard in Resources */,
+				3627FD2822F9245B00ADB477 /* Assets.xcassets in Resources */,
+				3627FD2622F9245A00ADB477 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3627FD2F22F9245B00ADB477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3627FD3A22F9245B00ADB477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3627FD1922F9245A00ADB477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3627FD2322F9245A00ADB477 /* ViewController.swift in Sources */,
+				3627FD2122F9245A00ADB477 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3627FD2D22F9245B00ADB477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3627FD3622F9245B00ADB477 /* AgeFinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3627FD3822F9245B00ADB477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3627FD4122F9245B00ADB477 /* AgeFinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3627FD3322F9245B00ADB477 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3627FD1C22F9245A00ADB477 /* AgeFinder */;
+			targetProxy = 3627FD3222F9245B00ADB477 /* PBXContainerItemProxy */;
+		};
+		3627FD3E22F9245B00ADB477 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3627FD1C22F9245A00ADB477 /* AgeFinder */;
+			targetProxy = 3627FD3D22F9245B00ADB477 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3627FD2422F9245A00ADB477 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3627FD2522F9245A00ADB477 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3627FD2922F9245B00ADB477 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3627FD2A22F9245B00ADB477 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3627FD4322F9245B00ADB477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3627FD4422F9245B00ADB477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3627FD4622F9245B00ADB477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73TW42T8UJ;
+				INFOPLIST_FILE = AgeFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = khilman.com.AgeFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3627FD4722F9245B00ADB477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73TW42T8UJ;
+				INFOPLIST_FILE = AgeFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = khilman.com.AgeFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3627FD4922F9245B00ADB477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73TW42T8UJ;
+				INFOPLIST_FILE = AgeFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = khilman.com.AgeFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgeFinder.app/AgeFinder";
+			};
+			name = Debug;
+		};
+		3627FD4A22F9245B00ADB477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73TW42T8UJ;
+				INFOPLIST_FILE = AgeFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = khilman.com.AgeFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgeFinder.app/AgeFinder";
+			};
+			name = Release;
+		};
+		3627FD4C22F9245B00ADB477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73TW42T8UJ;
+				INFOPLIST_FILE = AgeFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = khilman.com.AgeFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AgeFinder;
+			};
+			name = Debug;
+		};
+		3627FD4D22F9245B00ADB477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73TW42T8UJ;
+				INFOPLIST_FILE = AgeFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = khilman.com.AgeFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AgeFinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3627FD1822F9245A00ADB477 /* Build configuration list for PBXProject "AgeFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3627FD4322F9245B00ADB477 /* Debug */,
+				3627FD4422F9245B00ADB477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3627FD4522F9245B00ADB477 /* Build configuration list for PBXNativeTarget "AgeFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3627FD4622F9245B00ADB477 /* Debug */,
+				3627FD4722F9245B00ADB477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3627FD4822F9245B00ADB477 /* Build configuration list for PBXNativeTarget "AgeFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3627FD4922F9245B00ADB477 /* Debug */,
+				3627FD4A22F9245B00ADB477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3627FD4B22F9245B00ADB477 /* Build configuration list for PBXNativeTarget "AgeFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3627FD4C22F9245B00ADB477 /* Debug */,
+				3627FD4D22F9245B00ADB477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3627FD1522F9245A00ADB477 /* Project object */;
+}
