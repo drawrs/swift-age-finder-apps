@@ -12,26 +12,7 @@
 		3627FD2622F9245A00ADB477 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3627FD2422F9245A00ADB477 /* Main.storyboard */; };
 		3627FD2822F9245B00ADB477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3627FD2722F9245B00ADB477 /* Assets.xcassets */; };
 		3627FD2B22F9245B00ADB477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3627FD2922F9245B00ADB477 /* LaunchScreen.storyboard */; };
-		3627FD3622F9245B00ADB477 /* AgeFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3627FD3522F9245B00ADB477 /* AgeFinderTests.swift */; };
-		3627FD4122F9245B00ADB477 /* AgeFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3627FD4022F9245B00ADB477 /* AgeFinderUITests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		3627FD3222F9245B00ADB477 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3627FD1522F9245A00ADB477 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3627FD1C22F9245A00ADB477;
-			remoteInfo = AgeFinder;
-		};
-		3627FD3D22F9245B00ADB477 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3627FD1522F9245A00ADB477 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3627FD1C22F9245A00ADB477;
-			remoteInfo = AgeFinder;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3627FD1D22F9245A00ADB477 /* AgeFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgeFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,30 +22,10 @@
 		3627FD2722F9245B00ADB477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3627FD2A22F9245B00ADB477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3627FD2C22F9245B00ADB477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3627FD3122F9245B00ADB477 /* AgeFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgeFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3627FD3522F9245B00ADB477 /* AgeFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeFinderTests.swift; sourceTree = "<group>"; };
-		3627FD3722F9245B00ADB477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3627FD3C22F9245B00ADB477 /* AgeFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgeFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3627FD4022F9245B00ADB477 /* AgeFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeFinderUITests.swift; sourceTree = "<group>"; };
-		3627FD4222F9245B00ADB477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3627FD1A22F9245A00ADB477 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3627FD2E22F9245B00ADB477 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3627FD3922F9245B00ADB477 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,8 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				3627FD1F22F9245A00ADB477 /* AgeFinder */,
-				3627FD3422F9245B00ADB477 /* AgeFinderTests */,
-				3627FD3F22F9245B00ADB477 /* AgeFinderUITests */,
 				3627FD1E22F9245A00ADB477 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,8 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				3627FD1D22F9245A00ADB477 /* AgeFinder.app */,
-				3627FD3122F9245B00ADB477 /* AgeFinderTests.xctest */,
-				3627FD3C22F9245B00ADB477 /* AgeFinderUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,24 +62,6 @@
 				3627FD2C22F9245B00ADB477 /* Info.plist */,
 			);
 			path = AgeFinder;
-			sourceTree = "<group>";
-		};
-		3627FD3422F9245B00ADB477 /* AgeFinderTests */ = {
-			isa = PBXGroup;
-			children = (
-				3627FD3522F9245B00ADB477 /* AgeFinderTests.swift */,
-				3627FD3722F9245B00ADB477 /* Info.plist */,
-			);
-			path = AgeFinderTests;
-			sourceTree = "<group>";
-		};
-		3627FD3F22F9245B00ADB477 /* AgeFinderUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3627FD4022F9245B00ADB477 /* AgeFinderUITests.swift */,
-				3627FD4222F9245B00ADB477 /* Info.plist */,
-			);
-			path = AgeFinderUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,42 +84,6 @@
 			productReference = 3627FD1D22F9245A00ADB477 /* AgeFinder.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3627FD3022F9245B00ADB477 /* AgeFinderTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3627FD4822F9245B00ADB477 /* Build configuration list for PBXNativeTarget "AgeFinderTests" */;
-			buildPhases = (
-				3627FD2D22F9245B00ADB477 /* Sources */,
-				3627FD2E22F9245B00ADB477 /* Frameworks */,
-				3627FD2F22F9245B00ADB477 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3627FD3322F9245B00ADB477 /* PBXTargetDependency */,
-			);
-			name = AgeFinderTests;
-			productName = AgeFinderTests;
-			productReference = 3627FD3122F9245B00ADB477 /* AgeFinderTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		3627FD3B22F9245B00ADB477 /* AgeFinderUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3627FD4B22F9245B00ADB477 /* Build configuration list for PBXNativeTarget "AgeFinderUITests" */;
-			buildPhases = (
-				3627FD3822F9245B00ADB477 /* Sources */,
-				3627FD3922F9245B00ADB477 /* Frameworks */,
-				3627FD3A22F9245B00ADB477 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3627FD3E22F9245B00ADB477 /* PBXTargetDependency */,
-			);
-			name = AgeFinderUITests;
-			productName = AgeFinderUITests;
-			productReference = 3627FD3C22F9245B00ADB477 /* AgeFinderUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -193,14 +96,6 @@
 				TargetAttributes = {
 					3627FD1C22F9245A00ADB477 = {
 						CreatedOnToolsVersion = 10.3;
-					};
-					3627FD3022F9245B00ADB477 = {
-						CreatedOnToolsVersion = 10.3;
-						TestTargetID = 3627FD1C22F9245A00ADB477;
-					};
-					3627FD3B22F9245B00ADB477 = {
-						CreatedOnToolsVersion = 10.3;
-						TestTargetID = 3627FD1C22F9245A00ADB477;
 					};
 				};
 			};
@@ -218,8 +113,6 @@
 			projectRoot = "";
 			targets = (
 				3627FD1C22F9245A00ADB477 /* AgeFinder */,
-				3627FD3022F9245B00ADB477 /* AgeFinderTests */,
-				3627FD3B22F9245B00ADB477 /* AgeFinderUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,20 +128,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3627FD2F22F9245B00ADB477 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3627FD3A22F9245B00ADB477 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -261,36 +140,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3627FD2D22F9245B00ADB477 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3627FD3622F9245B00ADB477 /* AgeFinderTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3627FD3822F9245B00ADB477 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3627FD4122F9245B00ADB477 /* AgeFinderUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3627FD3322F9245B00ADB477 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3627FD1C22F9245A00ADB477 /* AgeFinder */;
-			targetProxy = 3627FD3222F9245B00ADB477 /* PBXContainerItemProxy */;
-		};
-		3627FD3E22F9245B00ADB477 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3627FD1C22F9245A00ADB477 /* AgeFinder */;
-			targetProxy = 3627FD3D22F9245B00ADB477 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3627FD2422F9245A00ADB477 /* Main.storyboard */ = {
@@ -464,88 +314,6 @@
 			};
 			name = Release;
 		};
-		3627FD4922F9245B00ADB477 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 73TW42T8UJ;
-				INFOPLIST_FILE = AgeFinderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = khilman.com.AgeFinderTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgeFinder.app/AgeFinder";
-			};
-			name = Debug;
-		};
-		3627FD4A22F9245B00ADB477 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 73TW42T8UJ;
-				INFOPLIST_FILE = AgeFinderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = khilman.com.AgeFinderTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgeFinder.app/AgeFinder";
-			};
-			name = Release;
-		};
-		3627FD4C22F9245B00ADB477 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 73TW42T8UJ;
-				INFOPLIST_FILE = AgeFinderUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = khilman.com.AgeFinderUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AgeFinder;
-			};
-			name = Debug;
-		};
-		3627FD4D22F9245B00ADB477 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 73TW42T8UJ;
-				INFOPLIST_FILE = AgeFinderUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = khilman.com.AgeFinderUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AgeFinder;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -563,24 +331,6 @@
 			buildConfigurations = (
 				3627FD4622F9245B00ADB477 /* Debug */,
 				3627FD4722F9245B00ADB477 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3627FD4822F9245B00ADB477 /* Build configuration list for PBXNativeTarget "AgeFinderTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3627FD4922F9245B00ADB477 /* Debug */,
-				3627FD4A22F9245B00ADB477 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3627FD4B22F9245B00ADB477 /* Build configuration list for PBXNativeTarget "AgeFinderUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3627FD4C22F9245B00ADB477 /* Debug */,
-				3627FD4D22F9245B00ADB477 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
